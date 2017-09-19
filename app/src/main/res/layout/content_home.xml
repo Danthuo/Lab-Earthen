@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_top_layout"
+    android:background="@color/colorcompanyblue"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_top_layout"
+        android:src="@drawable/earthenservices"
+        android:id="@+id/logo"
+        android:layout_margin="@dimen/logo_margin"/>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/layout_zero"
+        android:id="@+id/first_view_name"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/last_view_name"
+        android:textColorHint="@color/colorAccent"
+        android:layout_below="@+id/logo"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/layout_width"
+        android:id="@+id/last_view_name"
+        android:layout_alignParentRight="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_below="@+id/logo"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/email_view"
+        android:layout_below="@id/last_view_name"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="@dimen/margin_top"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/phone_view"
+        android:layout_below="@id/email_view"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="@dimen/margin_top"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/pass_view"
+        android:layout_below="@id/phone_view"
+        android:inputType="textVisiblePassword"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="@dimen/margin_top"
+        />
+
+
+
+</RelativeLayout>

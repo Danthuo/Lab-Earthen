@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Simple UI</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_signup">SignUp</string>
+    <string name="title_activity_profile">profile</string>
+
+
+
+    <string name="txtfnameHint">First Name</string>
+    <string name="txtlnameHint">Last Name</string>
+    <string name="btnCreateAccount">Create</string>
+
+    <string name="login_button">Login</string>
+    <string name="signup_button">SignUp</string>
+
+    <string name="fname">firstname</string>
+    <string name="lname">lastname</string>
+    <string name="email">email</string>
+    <string name="phone">phone</string>
+    <string name="pass">pass</string>
+
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+
+</resources>

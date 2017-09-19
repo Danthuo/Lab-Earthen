@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_logo"
+    android:background="@color/colorcompanyblue"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_top_layout"
+        android:src="@drawable/earthenservices"
+        android:layout_margin="@dimen/logo_margin"
+        android:id="@+id/logo"/>
+
+<android.support.v7.widget.AppCompatEditText
+    android:layout_height="wrap_content"
+    android:layout_width="@dimen/layout_zero"
+    android:hint="@string/Username"
+    android:layout_alignParentLeft="true"
+    android:id="@+id/user"
+    android:layout_toLeftOf="@+id/pass"
+    android:textColorHint="@color/colorAccent"
+    android:layout_below="@+id/logo"
+    />
+
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/layout_width"
+        android:hint="@string/Password"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/padding_50"
+        android:id="@+id/pass"
+        android:inputType="textVisiblePassword"
+        android:textColorHint="@color/colorAccent"
+        android:layout_below="@+id/logo"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button"
+        android:id="@+id/loginbutton"
+        android:layout_below="@+id/pass"
+        android:background="@color/colorcompanyyellow"
+        android:textColor="@color/colorAccent"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_button"
+        android:id="@+id/signupbutton"
+        android:layout_below="@+id/loginbutton"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/colorcompanyyellow"
+        android:textColor="@color/colorAccent"/>
+
+</RelativeLayout>
